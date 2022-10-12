@@ -7,8 +7,11 @@ const Home = () => {
   
     return (
         <div>
-            
-           <div className='container d-flex bg-secondary'>
+            <div>
+                <h3>Web Development Quiz</h3>
+                <p>this is the Web Development Quiz Website</p>
+            </div>
+           <div className='container d-flex bg-red p-3'>
            {
                 quizItems.map(quizItem => <QuizItem quizItem={quizItem} key={quizItem.id}></QuizItem>) 
             }

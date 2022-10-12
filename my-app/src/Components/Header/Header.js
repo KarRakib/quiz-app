@@ -8,12 +8,15 @@ const Header = () => {
             <h3>Web Development Quiz</h3>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+        </button>
             <div className='"collapse navbar-collapse" id="navbarSupportedContent"'>
-                <Link to={'/'}>Home</Link>
-                <Link to={'/topics'}>Topics</Link>
-                <Link to={'/statistics'}>Statistics</Link>
-                <Link to={'/blogs'}>Blogs</Link>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link> </li>
+            <li class="nav-item"> <Link className="nav-link active"  to={'/topics'}>Topics</Link> </li>
+            <li class="nav-item"> <Link className="nav-link active"  to={'/statistics'}>Statistics</Link> </li>
+            <li class="nav-item"> <Link className="nav-link active"  to={'/blogs'}>Blogs</Link> </li>
+                
+                </ul>
             </div>
         </nav>
     );
