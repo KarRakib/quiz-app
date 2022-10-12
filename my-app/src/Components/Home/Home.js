@@ -12,6 +12,7 @@ const Home = () => {
     return (
         <div>
             <div>
+                <img src={'../../../image/header.webp'} alt="" />
                 <h2>Web Development Quiz</h2>
                 <p>this is the Web Development Quiz Website</p>
             </div>
