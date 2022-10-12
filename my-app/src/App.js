@@ -29,6 +29,10 @@ function App() {
         {
           path: '/blogs',
           element: <Blogs></Blogs>
+        },
+        {
+          path: '*',
+          element: <div> Data not found </div>
         }
         
       ]
