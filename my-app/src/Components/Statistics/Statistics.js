@@ -4,7 +4,7 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
 const Statistics = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
-        axios.get('quiz.jsonhttps://openapi.programming-hero.com/api/quiz')
+        axios.get('https://openapi.programming-hero.com/api/quiz')
             .then(data => {
                 const dataLoaded = data.data.data;
                 const quizData = dataLoaded.map(quiz => {
