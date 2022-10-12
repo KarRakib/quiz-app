@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import QuizItem from '../QuizItem/QuizItem';
 
+
 const Home = () => {
     const quizItems = useLoaderData().data
     const handelQuizStart = (quizItem) =>{
