@@ -34,9 +34,7 @@ const clickMe = (e) => {
                 
                 <FaEye onClick={()=>clickMe(correctAnswer)}
                     className='hover:cursor-pointer text-3xl'></FaEye>
-{/*                
-                <FontAwesomeIcon onClick={()=>clickMe(correctAnswer)}
-                    className='hover:cursor-pointer' icon={FaEye}></FontAwesomeIcon> */}
+
             </div>
             <section className="py-6 dark:bg-gray-800 text-white">
                 <div className="container flex flex-col justify-center p-4 mx-auto">

@@ -13,7 +13,7 @@ Navbar Details:
 
 
 ## Live Link
--  Hosted in Netlify -> [Web Development Quiz](https://crazy-programmer.netlify.app/)
+-  Hosted in Netlify -> [Web Development Quiz](https://animated-starlight-bec56b.netlify.app/)
 
 ## Using API 
 
@@ -25,15 +25,15 @@ Navbar Details:
 
 ## Resources & Credits
 -  CSS Framwork -> [Tailwind](https://tailwindcss.com/)
+-  CSS Bootstrap-> [Bootstrap](https://getbootstrap.com/)
 
--  Tailwind Components -> 
-[Mamba UI](https://www.mambaui.com/)
+
+
 
 ## Other Resources
--  Banner Photo -> [Freepic](https://www.freepik.com/)
+-  
 -  Icon -> [FontAwesome](https://fontawesome.com/)
 -  Fevicon  -> [flaticon](https://www.flaticon.com/)
-Crazy Programmer
-Saif
-Saif Sammy
-https://github.com/programming-hero-web-course2/b6-quiz-crackerz-saifsammy/blob/main/README.md?plain=1
+Web Development Quiz
+Kar Rakib
+https://github.com/programming-hero-web-course2/b6-quiz-crackerz-KarRakib/tree/main/my-app
